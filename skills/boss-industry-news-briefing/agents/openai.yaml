@@ -1,0 +1,4 @@
+interface:
+  display_name: "行业资讯简报"
+  short_description: "为老板获取并提炼最新国内外行业资讯"
+  default_prompt: "Use $boss-industry-news-briefing to gather the latest domestic and international industry news and turn it into an executive briefing."
