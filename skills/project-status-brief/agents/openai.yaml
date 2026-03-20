@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Status Brief"
+  short_description: "Draft boss-facing status briefs and project trackers"
+  default_prompt: "Use $project-status-brief to summarize one or more project updates into a concise boss-facing progress report."
