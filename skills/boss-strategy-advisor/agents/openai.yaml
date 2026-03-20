@@ -1,0 +1,4 @@
+interface:
+  display_name: "Boss Strategy Advisor"
+  short_description: "Turn strategy questions into CEO-ready decisions"
+  default_prompt: "Use $boss-strategy-advisor to turn my business situation into a concise CEO-ready strategic recommendation."
