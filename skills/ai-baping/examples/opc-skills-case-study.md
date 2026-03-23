@@ -1,6 +1,6 @@
-# Case Study: OPC Skills Website SEO/GEO Optimization
+# Case Study: OPC Skills Website AI霸屏 Optimization
 
-Real-world example of applying SEO and GEO optimization to opc.dev.
+Real-world example of applying AI霸屏 optimization to opc.dev.
 
 ---
 
@@ -48,7 +48,7 @@ No structured data meant:
 - Poor AI visibility
 - No FAQ display
 
-### 3. No GEO Optimization
+### 3. No AI霸屏 Optimization
 
 Content lacked:
 - Statistics and data points
@@ -117,7 +117,7 @@ Added comprehensive JSON-LD:
           "name": "What is OPC Skills?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "OPC Skills is a collection of 10+ AI agent skills..."
+            "text": "OPC Skills is a collection of 10+ AI agent skills for solopreneurs, supporting Claude Code, Cursor, and Codex."
           }
         }
         // 12 total FAQ items
@@ -127,7 +127,7 @@ Added comprehensive JSON-LD:
 }
 ```
 
-### Phase 3: GEO Optimization (Princeton Methods)
+### Phase 3: AI霸屏 Optimization (Princeton Methods)
 
 #### Statistics Addition (+37%)
 
@@ -183,7 +183,7 @@ Added references to:
 Updated robots.txt considerations:
 
 ```
-# Allow AI bots for GEO visibility
+# Allow AI bots for AI霸屏 visibility
 User-agent: GPTBot
 Allow: /
 
@@ -226,7 +226,7 @@ Install once, use everywhere.
 | FAQ Items | 0 | 12 |
 | Statistics | 0 | 4 key metrics |
 
-### SEO Improvements
+### AI霸屏 Improvements
 
 | Factor | Before | After |
 |--------|--------|-------|
@@ -235,7 +235,7 @@ Install once, use everywhere.
 | Structured data | ❌ | ✅ |
 | Rich results eligible | ❌ | ✅ |
 
-### GEO Improvements
+### AI霸屏 Improvements
 
 | Princeton Method | Applied | Expected Boost |
 |-----------------|---------|----------------|
@@ -245,7 +245,7 @@ Install once, use everywhere.
 | Authoritative Tone | ✅ | +25% |
 | Easy Language | ✅ | +20% |
 
-**Estimated total GEO visibility boost: 40-60%**
+**Estimated total AI霸屏 visibility boost: 40-60%**
 
 ---
 
@@ -309,7 +309,7 @@ Each FAQ answer starts with a direct answer:
 
 To replicate this optimization for your own site:
 
-1. **Audit current state** using seo-geo skill checklist
+1. **Audit current state** using AI霸屏 skill checklist
 2. **Research keywords** - find long-tail opportunities
 3. **Write meta tags** - include primary keyword in title/description
 4. **Add Schema markup** - start with FAQPage and WebPage

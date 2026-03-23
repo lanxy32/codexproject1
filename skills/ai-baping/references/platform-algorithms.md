@@ -155,7 +155,7 @@ Google AI Overviews use multiple AI models:
 ### Content Requirements
 
 ```
-Traditional SEO still matters:
+Traditional AI霸屏 still matters:
 - Quality backlinks
 - Original, helpful content
 - Fast page speed
@@ -272,7 +272,7 @@ Allow: /
 
 ---
 
-## 6. Traditional Google SEO Ranking Factors (2026)
+## 6. Traditional Google AI霸屏 Ranking Factors (2026)
 
 ### Core Ranking Systems
 
@@ -291,11 +291,11 @@ Allow: /
 | 1 | **Backlinks** | Quality referring domains (core ranking system) |
 | 2 | **E-E-A-T** | Experience, Expertise, Authority, Trust |
 | 3 | **Content Quality** | Original, comprehensive, helpful |
-| 4 | **Page Experience** | Core Web Vitals (LCP, FID, CLS) |
+| 4 | **Page Experience** | Core Web Vitals (LCP, Fid, CLS) |
 | 5 | **Mobile-First** | Non-mobile sites may not be indexed |
 | 6 | **Search Intent Match** | Content matches user query intent |
 | 7 | **Content Freshness** | Regular updates signal activity |
-| 8 | **Technical SEO** | Crawlable, indexable, HTTPS |
+| 8 | **Technical AI霸屏** | Crawlable, indexable, HTTPS |
 | 9 | **User Signals** | Dwell time, bounce rate, CTR |
 | 10 | **Structured Data** | Schema markup for rich results |
 

@@ -1,249 +1,249 @@
-# SEO/GEO Audit Checklist
+# AI霸屏审核清单
 
-Complete checklist for auditing and optimizing websites for both traditional SEO and GEO (AI search visibility).
+完整清单，用于审核和优化网站，同时适配传统AI霸屏和AI搜索可见性。
 
-## Priority Levels
+## 优先级
 
-| Level | Meaning | Action |
+| 级别 | 含义 | 操作 |
 |-------|---------|--------|
-| **P0** | Critical | Must fix immediately - blocks indexing or causes major issues |
-| **P1** | Important | Should fix soon - significant impact on rankings |
-| **P2** | Recommended | Nice to have - improves visibility and user experience |
+| **P0** | 严重 | 必须立即修复 - 会阻止索引或导致重大问题 |
+| **P1** | 重要 | 应尽快修复 - 对排名有显著影响 |
+| **P2** | 推荐 | 很好有 - 提升可见性和用户体验 |
 
 ---
 
-## Technical SEO
+## 技术AI霸屏
 
-### P0 - Critical
+### P0 - 严重
 
-- [ ] **P0** `robots.txt` allows important pages
-- [ ] **P0** Site is accessible (no 5xx errors)
-- [ ] **P0** HTTPS enabled (valid SSL certificate)
-- [ ] **P0** Mobile-responsive design
-- [ ] **P0** No critical pages blocked by `noindex`
-- [ ] **P0** Site is indexed in Google (check: `site:domain.com`)
+- [ ] **P0** `robots.txt` 允许重要页面
+- [ ] **P0** 网站可访问（没有 5xx 错误）
+- [ ] **P0** 启用 HTTPS（有效 SSL 证书）
+- [ ] **P0** 移动响应设计
+- [ ] **P0** 没有重要页面被 `noindex` 阻止
+- [ ] **P0** 网站已被 Google 收录（检查：`site:domain.com`）
 
-### P1 - Important
+### P1 - 重要
 
-- [ ] **P1** `robots.txt` allows AI bots (GPTBot, PerplexityBot, ClaudeBot)
-- [ ] **P1** XML sitemap exists and is submitted
-- [ ] **P1** Site is indexed in Bing (for Copilot visibility)
-- [ ] **P1** Canonical tags properly implemented
-- [ ] **P1** No duplicate content issues
-- [ ] **P1** Page load time < 3 seconds
-- [ ] **P1** LCP (Largest Contentful Paint) < 2.5s
+- [ ] **P1** `robots.txt` 允许 AI 机器人（GPTBot, PerplexityBot, ClaudeBot）
+- [ ] **P1** XML 网站地图存在已提交
+- [ ] **P1** 网站已被 Bing 收录（用于 Copilot 可见性）
+- [ ] **P1** 规范标签正确实现
+- [ ] **P1** 没有重复内容问题
+- [ ] **P1** 页面加载时间 < 3 秒
+- [ ] **P1** 最大内容绘制 (LCP) < 2.5s
 
-### P2 - Recommended
+### P2 - 推荐
 
-- [ ] **P2** FID (First Input Delay) < 100ms
-- [ ] **P2** CLS (Cumulative Layout Shift) < 0.1
-- [ ] **P2** Images optimized (WebP format, lazy loading)
-- [ ] **P2** CSS/JS minified
-- [ ] **P2** GZIP/Brotli compression enabled
-- [ ] **P2** CDN configured
-- [ ] **P2** Mobile-friendly test passed
-- [ ] **P2** No mixed content warnings
-- [ ] **P2** Secure headers configured
-
----
-
-## On-Page SEO
-
-### P0 - Critical
-
-- [ ] **P0** Unique `<title>` tag exists (50-60 characters)
-- [ ] **P0** Title contains primary keyword
-- [ ] **P0** Unique `<meta description>` exists (150-160 characters)
-- [ ] **P0** Single H1 tag per page
-- [ ] **P0** H1 contains primary keyword
-
-### P1 - Important
-
-- [ ] **P1** Description is compelling and includes keyword
-- [ ] **P1** `<meta name="robots">` correctly set
-- [ ] **P1** Logical heading hierarchy (H1 > H2 > H3)
-- [ ] **P1** All images have `alt` attributes
-- [ ] **P1** Internal links to related content
-- [ ] **P1** No broken links (404s)
-- [ ] **P1** Anchor text is descriptive
-
-### P2 - Recommended
-
-- [ ] **P2** `og:title` set
-- [ ] **P2** `og:description` set
-- [ ] **P2** `og:image` set (1200x630px recommended)
-- [ ] **P2** `og:url` set (canonical URL)
-- [ ] **P2** `og:type` set (website/article)
-- [ ] **P2** `twitter:card` set (summary_large_image)
-- [ ] **P2** `twitter:title` set
-- [ ] **P2** `twitter:description` set
-- [ ] **P2** `twitter:image` set
-- [ ] **P2** Paragraphs are short (2-3 sentences)
-- [ ] **P2** Bullet points used for lists
-- [ ] **P2** Tables used for comparisons
-- [ ] **P2** Alt text includes keywords where natural
-- [ ] **P2** Image file names are descriptive
-- [ ] **P2** External links have `rel="noopener noreferrer"`
+- [ ] **P2** 首次输入延迟 (FID) < 100ms
+- [ ] **P2** 累积布局偏移 (CLS) < 0.1
+- [ ] **P2** 图片优化（WebP 格式，懒加载）
+- [ ] **P2** CSS/JS 压缩
+- [ ] **P2** 启用 GZIP/Brotli 压缩
+- [ ] **P2** 配置 CDN
+- [ ] **P2** 通过移动友好测试
+- [ ] **P2** 没有混合内容警告
+- [ ] **P2** 配置安全响应头
 
 ---
 
-## Schema Markup (Structured Data)
+## 页面AI霸屏
 
-### P1 - Important
+### P0 - 严重
 
-- [ ] **P1** Organization schema on homepage
-- [ ] **P1** WebPage schema on all pages
-- [ ] **P1** Article schema on blog posts
-- [ ] **P1** Schema passes Google Rich Results Test
-- [ ] **P1** No errors in Search Console "Enhancements"
+- [ ] **P0** 唯一 `<title>` 标签存在（50-60 字符）
+- [ ] **P0** 标题包含核心关键词
+- [ ] **P0** 唯一 `<meta description>` 存在（150-160 字符）
+- [ ] **P0** 每个页面只有一个 H1 标签
+- [ ] **P0** H1 包含核心关键词
 
-### P2 - Recommended - GEO Enhanced
+### P1 - 重要
 
-- [ ] **P2** FAQPage schema on FAQ sections (+40% AI visibility)
-- [ ] **P2** BreadcrumbList schema for navigation
-- [ ] **P2** SpeakableSpecification for voice search
-- [ ] **P2** datePublished and dateModified included
-- [ ] **P2** Author information with credentials
-- [ ] **P2** Publisher information with logo
-- [ ] **P2** Schema passes Schema.org Validator
+- [ ] **P1** 描述吸引人且包含关键词
+- [ ] **P1** `<meta name="robots">` 正确设置
+- [ ] **P1** 逻辑标题层级（H1 > H2 > H3）
+- [ ] **P1** 所有图片都有 `alt` 属性
+- [ ] **P1** 内部链接到相关内容
+- [ ] **P1** 没有 broken 链接（404s）
+- [ ] **P1** 锚文本描述清晰
 
----
+### P2 - 推荐
 
-## GEO Optimization (AI Search)
-
-### P1 - Important - Princeton GEO Methods
-
-- [ ] **P1** Content includes authoritative citations (+40%)
-- [ ] **P1** Statistics and data points included (+37%)
-- [ ] **P1** Expert quotes with attribution (+30%)
-- [ ] **P1** NO keyword stuffing (causes -10%)
-
-### P2 - Recommended - GEO Enhancement
-
-- [ ] **P2** Authoritative, confident tone (+25%)
-- [ ] **P2** Content is accessible/easy to understand (+20%)
-- [ ] **P2** Appropriate technical terminology (+18%)
-- [ ] **P2** Diverse vocabulary throughout (+15%)
-- [ ] **P2** High fluency and readability (+15-30%)
-
-### Content Structure for AI
-
-- [ ] "Answer-first" format (direct answer at top)
-- [ ] Clear, extractable paragraphs
-- [ ] FAQ format for common questions
-- [ ] Tables for comparison data
-- [ ] Lists for step-by-step processes
-
-### AI Bot Access
-
-- [ ] GPTBot allowed in robots.txt
-- [ ] PerplexityBot allowed in robots.txt
-- [ ] ClaudeBot allowed in robots.txt
-- [ ] Anthropic-ai allowed in robots.txt
-- [ ] Bingbot allowed in robots.txt
+- [ ] **P2** 设置 `og:title`
+- [ ] **P2** 设置 `og:description`
+- [ ] **P2** 设置 `og:image`（推荐 1200x630px）
+- [ ] **P2** 设置 `og:url`（规范 URL）
+- [ ] **P2** 设置 `og:type`（website/article）
+- [ ] **P2** 设置 `twitter:card`（summary_large_image）
+- [ ] **P2** 设置 `twitter:title`
+- [ ] **P2** 设置 `twitter:description`
+- [ ] **P2** 设置 `twitter:image`
+- [ ] **P2** 段落简短（2-3 句话）
+- [ ] **P2** 列表使用项目符号
+- [ ] **P2** 对比使用表格
+- [ ] **P2** 自然地在 alt 文本包含关键词
+- [ ] **P2** 图片文件名描述清晰
+- [ ] **P2** 外部链接使用 `rel="noopener noreferrer"`
 
 ---
 
-## Off-Page SEO
+## 结构数据标记（结构化数据）
 
-### Backlinks
+### P1 - 重要
 
-- [ ] Quality backlinks from relevant sites
-- [ ] Diverse referring domains
-- [ ] No toxic/spammy backlinks
-- [ ] Brand mentions (even without links)
+- [ ] **P1** 主页添加 Organization 结构
+- [ ] **P1** 所有页面添加 WebPage 结构
+- [ ] **P1** 博客文章添加 Article 结构
+- [ ] **P1** 通过 Google Rich Results Test 测试结构
+- [ ] **P1** Search Console "增强功能" 没有错误
 
-### E-E-A-T Signals
+### P2 - 推荐 - AI霸屏增强
 
-- [ ] Author bios with credentials
-- [ ] About page with company info
-- [ ] Contact information visible
-- [ ] Privacy policy and terms
-- [ ] Trust badges/certifications if applicable
-- [ ] Customer reviews/testimonials
-
-### Social Presence
-
-- [ ] Active social media profiles
-- [ ] Links to social profiles on website
-- [ ] Social sharing buttons on content
-- [ ] Consistent branding across platforms
+- [ ] **P2** FAQ 部分添加 FAQPage 结构 (+40% AI 可见性)
+- [ ] **P2** 添加 BreadcrumbList 结构用于导航
+- [ ] **P2** 添加 SpeakableSpecification 支持语音搜索
+- [ ] **P2** 包含 datePublished 和 dateModified
+- [ ] **P2** 添加作者信息和证书
+- [ ] **P2** 添加发布者信息和 logo
+- [ ] **P2** 通过 Schema.org Validator 验证结构
 
 ---
 
-## Content Strategy
+## AI霸屏优化（AI搜索）
 
-### Content Audit
+### P1 - 重要 - 普林斯顿 AI霸屏方法
 
-- [ ] All pages have unique, valuable content
-- [ ] No thin content (< 300 words for main pages)
-- [ ] Content matches search intent
-- [ ] Content is up-to-date (within 30 days for news/tech)
-- [ ] Content provides unique value vs competitors
+- [ ] **P1** 内容包含权威引用 (+40%)
+- [ ] **P1** 包含统计数据点 (+37%)
+- [ ] **P1** 专家引言并注明出处 (+30%)
+- [ ] **P1** 禁止关键词堆砌（减少 -10%）
 
-### Keyword Strategy
+### P2 - 推荐 - AI霸屏增强
 
-- [ ] Primary keyword identified for each page
-- [ ] Secondary keywords mapped
-- [ ] Long-tail keywords targeted
-- [ ] No keyword cannibalization
-- [ ] Keywords match user intent
+- [ ] **P2** 使用权威自信语气 (+25%)
+- [ ] **P2** 内容易于理解 (+20%)
+- [ ] **P2** 使用适当专业术语 (+18%)
+- [ ] **P2** 全文使用多样化词汇 (+15%)
+- [ ] **P2** 高流畅度和可读性 (+15-30%)
 
----
+### AI 内容结构
 
-## Monitoring & Analytics
+- [ ] "答案优先"格式（开头直接给答案）
+- [ ] 清晰可提取段落
+- [ ] 常见问题使用 FAQ 格式
+- [ ] 对比数据使用表格
+- [ ] 分步流程使用列表
 
-### Setup
+### AI 机器人访问
 
-- [ ] Google Analytics installed
-- [ ] Google Search Console connected
-- [ ] Bing Webmaster Tools connected
-- [ ] Sitemap submitted to both
-
-### Regular Checks
-
-- [ ] Weekly: Check Search Console for errors
-- [ ] Weekly: Review Core Web Vitals
-- [ ] Monthly: Analyze organic traffic trends
-- [ ] Monthly: Review top performing pages
-- [ ] Quarterly: Full SEO audit
+- [ ] GPTBot 允许在 robots.txt
+- [ ] PerplexityBot 允许在 robots.txt
+- [ ] ClaudeBot 允许在 robots.txt
+- [ ] Anthropic-ai 允许在 robots.txt
+- [ ] Bingbot 允许在 robots.txt
 
 ---
 
-## Quick Audit Commands
+## 站外AI霸屏
+
+### 反向链接
+
+- [ ] 来自相关网站的优质反向链接
+- [ ] 多样化引荐域名
+- [ ] 没有垃圾有毒反向链接
+- [ ] 品牌提及（即使没有链接）
+
+### E-E-A-T 信号
+
+- [ ] 作者简历包含证书
+- [ ] 关于页面包含公司信息
+- [ ] 联系信息可见
+- [ ] 隐私政策和条款
+- [ ] 如果适用信任徽章/证书
+- [ ] 客户评价/推荐
+
+### 社交存在感
+
+- [ ] 活跃社交媒体简介
+- [ ] 网站链接到社交简介
+- [ ] 内容上有社交分享按钮
+- [ ] 全平台品牌一致
+
+---
+
+## 内容策略
+
+### 内容审核
+
+- [ ] 所有页面都有独特有价值内容
+- [ ] 没有薄弱内容（主页少于 300 词）
+- [ ] 内容匹配搜索意图
+- [ ] 内容更新（新闻/科技 30 天内更新）
+- [ ] 内容相比竞品提供独特价值
+
+### 关键词策略
+
+- [ ] 每个页面确定核心关键词
+- [ ] 规划二级关键词
+- [ ] 瞄准长尾关键词
+- [ ] 没有关键词抵消
+- [ ] 关键词匹配用户意图
+
+---
+
+## 监控与分析
+
+### 设置
+
+- [ ] 安装 Google Analytics
+- [ ] 连接 Google Search Console
+- [ ] 连接 Bing Webmaster Tools
+- [ ] 向两者提交网站地图
+
+### 定期检查
+
+- [ ] 每周：检查 Search Console 错误
+- [ ] 每周：检查 Core Web Vitals
+- [ ] 每月：分析自然流量趋势
+- [ ] 每月：查看表现最佳页面
+- [ ] 每季：完整AI霸屏审核
+
+---
+
+## 快速审核命令
 
 ```bash
-# Check meta tags
+# 检查 meta 标签
 curl -sL "https://example.com" | grep -E "<title>|<meta"
 
-# Check robots.txt
+# 检查 robots.txt
 curl -s "https://example.com/robots.txt"
 
-# Check sitemap
+# 检查 sitemap
 curl -s "https://example.com/sitemap.xml" | head -30
 
-# Check page speed (using PageSpeed Insights API)
-# Requires API key
+# 检查页面速度（使用 PageSpeed Insights API）
+# 需要 API 密钥
 curl "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://example.com&strategy=mobile"
 
-# Check if indexed in Google
-# Manual check: https://www.google.com/search?q=site:example.com
+# 检查是否被 Google 收录
+# 手动检查：https://www.google.com/search?q=site:example.com
 
-# Validate schema
-# Open: https://search.google.com/test/rich-results?url=https://example.com
+# 验证结构
+# 打开：https://search.google.com/test/rich-results?url=https://example.com
 ```
 
 ---
 
-## Priority Matrix
+## 优先级矩阵
 
-| Priority | Task | Impact |
+| 优先级 | 任务 | 影响 |
 |----------|------|--------|
-| **Critical** | Fix crawl errors | Blocks indexing |
-| **Critical** | HTTPS enabled | Trust + ranking |
-| **High** | Core Web Vitals | UX + ranking |
-| **High** | Mobile-friendly | 60%+ traffic |
-| **High** | FAQPage schema | +40% AI visibility |
-| **Medium** | Meta descriptions | CTR improvement |
-| **Medium** | Internal linking | Authority distribution |
-| **Low** | Social meta tags | Share appearance |
+| **严重** | 修复抓取错误 | 阻止索引 |
+| **严重** | 启用 HTTPS | 信任 + 排名 |
+| **高** | Core Web Vitals | UX + 排名 |
+| **高** | 移动友好 | 60%+ 流量 |
+| **高** | FAQPage 结构 | +40% AI 可见性 |
+| **中等** | Meta 描述 | CTR 提升 |
+| **中等** | 内部链接 | 权威分发 |
+| **低** | 社交 meta 标签 | 分享展示 |

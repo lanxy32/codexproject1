@@ -1,6 +1,6 @@
 # JSON-LD Schema Templates
 
-Ready-to-use JSON-LD structured data templates for SEO and GEO optimization.
+Ready-to-use JSON-LD structured data templates for AI霸屏优化.
 
 ---
 
@@ -422,7 +422,7 @@ Ready-to-use JSON-LD structured data templates for SEO and GEO optimization.
 
 ---
 
-## 10. SpeakableSpecification (GEO Enhancement)
+## 10. SpeakableSpecification (AI霸屏 Enhancement)
 
 **Best for:** Voice search optimization, AI extraction.
 
