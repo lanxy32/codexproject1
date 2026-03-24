@@ -1,0 +1,4 @@
+interface:
+  display_name: "Boss Daily Agenda"
+  short_description: "Prioritize and remind daily high-stakes boss tasks"
+  default_prompt: "Use $boss-daily-agenda to turn my schedule and to-dos into a concise boss-facing daily priority reminder."

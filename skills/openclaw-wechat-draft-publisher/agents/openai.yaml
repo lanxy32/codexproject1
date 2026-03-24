@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw WeChat Draft"
+  short_description: "Publish OpenClaw article content to WeChat draft box."
+  default_prompt: "Collect appid/appsecret, verify IP whitelist readiness, and publish article content into WeChat draft box using the bundled script."
