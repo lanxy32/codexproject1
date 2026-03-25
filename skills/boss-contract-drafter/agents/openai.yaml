@@ -1,0 +1,4 @@
+interface:
+  display_name: "Boss Contract Drafter"
+  short_description: "Draft Chinese business contracts from boss chat context"
+  default_prompt: "Use $boss-contract-drafter to turn the business context, proposal, parties, fees, and requirements into a balanced Chinese cooperation contract."
