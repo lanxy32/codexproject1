@@ -1,0 +1,4 @@
+interface:
+  display_name: "老板AI提案助手"
+  short_description: "老板口述需求转AI内训提案与培训大纲"
+  default_prompt: "Use $boss-ai-training-proposal to turn this boss description, department list, or chat screenshot into a boss-facing AI internal-training proposal."
